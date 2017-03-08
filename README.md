@@ -1,3 +1,22 @@
+Supported tags and respective `Dockerfile` links
+================================================
+
+* [`3.2.7`, `latest` (_latest_ 3.x) (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/master/Dockerfile-grails3)
+* [`3.1.15` (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/grails-3.1.15/Dockerfile-grails2)
+* [`3.0.17` (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/grails-3.0.17/Dockerfile-grails2)
+* [`2.5.5` (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/master/Dockerfile-grails2)
+* [`2.5.3` (_latest_ 2.x) (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/grails-2.5.3/Dockerfile-grails2)
+* [`2.4.5` (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/grails-2.4.5/Dockerfile-grails2)
+* [`2.3.11` (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/grails-2.3.11/Dockerfile-grails2)
+* [`2.2.5` (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/grails-2.2.5/Dockerfile-grails2)
+* [`2.1.5` (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/grails-2.1.5/Dockerfile-grails2)
+* [`2.0.4` (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/grails-2.0.4/Dockerfile-grails2)
+
+Docker Hub
+==========
+
+[reduardo7/docker-grails](https://hub.docker.com/r/reduardo7/docker-grails)
+
 # Optimized Grails Container #
 
 Docker image that will bootstrap an environment for running a Grails application using Docker optimized base images. By default, it will run the Grails app using the `prod run-app` (or `prod run-war` for Grails 2) directive which is the most optimized way of running Grails for production environments. However, you can easily change the default behaviour for your specific uses (see the _Changing Behaviour_ section for more details on this).
