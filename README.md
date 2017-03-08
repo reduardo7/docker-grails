@@ -1,16 +1,16 @@
 Supported tags and respective `Dockerfile` links
 ================================================
 
-* [`3.2.7`, `latest` (_latest_ 3.x) (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/master/Dockerfile-grails3)
-* [`3.1.15` (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/grails-3.1.15/Dockerfile-grails2)
-* [`3.0.17` (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/grails-3.0.17/Dockerfile-grails2)
-* [`2.5.5` (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/master/Dockerfile-grails2)
-* [`2.5.3` (_latest_ 2.x) (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/grails-2.5.3/Dockerfile-grails2)
-* [`2.4.5` (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/grails-2.4.5/Dockerfile-grails2)
-* [`2.3.11` (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/grails-2.3.11/Dockerfile-grails2)
-* [`2.2.5` (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/grails-2.2.5/Dockerfile-grails2)
-* [`2.1.5` (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/grails-2.1.5/Dockerfile-grails2)
-* [`2.0.4` (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/grails-2.0.4/Dockerfile-grails2)
+* [`3.2.7`, `3.2`, `latest-3`, `latest` (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/master/Dockerfile-grails3)
+* [`3.1.15` (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/3.1.15/Dockerfile-grails2)
+* [`3.0.17` (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/3.0.17/Dockerfile-grails2)
+* [`2.5.5`, `2.5`, `latest-2`, (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/master/Dockerfile-grails2)
+* [`2.5.3` (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/2.5.3/Dockerfile-grails2)
+* [`2.4.5` (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/2.4.5/Dockerfile-grails2)
+* [`2.3.11` (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/2.3.11/Dockerfile-grails2)
+* [`2.2.5` (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/2.2.5/Dockerfile-grails2)
+* [`2.1.5` (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/2.1.5/Dockerfile-grails2)
+* [`2.0.4` (Dockerfile)](https://github.com/reduardo7/docker-grails/blob/2.0.4/Dockerfile-grails2)
 
 Docker Hub
 ==========
