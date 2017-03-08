@@ -1,0 +1,17 @@
+version: "2"
+
+services:
+  grails3:
+    build:
+      context: .
+      dockerfile: Dockerfile-grails3
+      args:
+        GRAILS_VERSION: "3.2.7"
+    image: reduardo7/grails:3.2.7
+    environment: 
+      GRAILS_ENV: "docker"
+    volumes:
+      - ./.data/gradle:/root/.gradle
+      - ./.data/app/gradle:/app/gradle
+      - ./.data/app/.gradle:/app/.gradle
+      - ./.data/app/build:/app/build

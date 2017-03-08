@@ -1,0 +1,30 @@
+version: "2"
+
+services:
+
+  # Grails 3
+  app:
+    extends:
+      file: docker-compose-commons.yml
+      service: grails3
+    volumes:
+      - ./:/app
+    ports:
+      - "8080:8080"
+    command: run
+
+  # Grails 2
+  grails-app:
+    build:
+      context: .
+      dockerfile: Dockerfile-grails2
+      args:
+        GRAILS_VERSION: "2.5.3"
+    image: reduardo7/grails:2.5.3
+    ports:
+      - "8080:8080"
+    environment: 
+      GRAILS_ENV: "docker"
+    volumes:
+      - ./:/app
+    command: run-app
